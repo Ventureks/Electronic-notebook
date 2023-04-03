@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("background.png");
+}
+header
+{
+    background-color: lightgray;
+    text-align: center;
+    height: 150px;
+    width: auto;
+    border-radius: 25px;
+    opacity: 75%;
+}
+main
+{
+    width: 1100px;
+    height: 400px;
+    border-radius: 50px;
+    float: left;
+    opacity: 50%;
+}
+aside
+{
+    float: right;
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 50px;
+    opacity: 75%;
+}
+aside a
+{
+    text-decoration: none;
+    color: lightskyblue;
+}
+aside a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+footer
+{
+    width: auto;
+    height: 100px;
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+}
+footer hr
+{
+    opacity: 50%;
+}
